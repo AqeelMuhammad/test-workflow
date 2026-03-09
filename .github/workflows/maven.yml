@@ -44,10 +44,10 @@ jobs:
           repository: ${{ inputs.carbon_apimgt_repo }}
           ref: refs/heads/${{ inputs.carbon_apimgt_branch }}
           fetch-depth: '10'
-      - name: Set up JDK 11
+      - name: Set up JDK 21
         uses: actions/setup-java@v2
         with:
-          java-version: 11.0.24
+          java-version: 21.0.5
           distribution: 'temurin'
       - uses: actions/setup-node@v3
         with:
@@ -90,10 +90,10 @@ jobs:
           repository: ${{ inputs.carbon_apimgt_repo }}
           ref: refs/heads/${{ inputs.carbon_apimgt_branch }}
           fetch-depth: '10'
-      - name: Set up JDK 11
+      - name: Set up JDK 21
         uses: actions/setup-java@v2
         with:
-          java-version: 11.0.24
+          java-version: 21.0.5
           distribution: 'temurin'
       - uses: actions/setup-node@v3
         with:
@@ -163,10 +163,10 @@ jobs:
           repository: ${{ inputs.carbon_apimgt_repo }}
           ref: refs/heads/${{ inputs.carbon_apimgt_branch }}
           fetch-depth: '10'
-      - name: Set up JDK 11
+      - name: Set up JDK 21
         uses: actions/setup-java@v2
         with:
-          java-version: 11.0.24
+          java-version: 21.0.5
           distribution: 'temurin'
       - uses: actions/setup-node@v3
         with:
